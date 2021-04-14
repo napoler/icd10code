@@ -28,8 +28,8 @@ def read_requirements(filename):
 
 long_description=read_file("README.md")
 setup(
-    name='tkitDemo', #修改包名字-
-    version='0.0.0.2                                 ',
+    name='icd10code', #修改包名字-
+    version='0.0.0.1',
     description='Terry toolkit tkitDemo',
     author='Terry Chan',
     author_email='napoler2008@gmail.com',
@@ -42,7 +42,7 @@ setup(
 
 
     # ],
-    packages=['Demo'])
+    packages=['icd10code'])
 
 """
 pip freeze > requirements.txt
